@@ -80,7 +80,7 @@ const Home: NextPage = () => {
               />
             </div>
             <div>
-              <h1>{contractMetadata.name}</h1>
+              <h1>{contractMetadata?.name}</h1>
               {!isActiveClaimPhaseLoading ? (
                 <div>
                   <p>Claim Phase: {activeClaimPhase?.metadata?.name}</p>
