@@ -79,7 +79,7 @@ const Home: NextPage = () => {
                 src={contractMetadata.image}/>
             </div>
             <div>
-              <h1>{contractMetadata.name}</h1>             
+              <MediaRenderer src={contractMetadata?.image} />            
               {!isActiveClaimPhaseLoading ? (
                 <div>
                   <p>Claim Phase: {activeClaimPhase?.metadata?.name}</p>
