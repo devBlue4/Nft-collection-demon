@@ -76,8 +76,7 @@ const Home: NextPage = () => {
           <div className={styles.heroSection}>
             <div className={styles.collectionImage}>
               <MediaRenderer
-                src={contractMetadata.image}
-              />
+                src={contractMetadata.image}/>
             </div>
             <div>
               <h1>{contractMetadata.name}</h1>             
