@@ -1,35 +1,45 @@
-## Getting Started
+# Guardians of the Night NFT Collection
 
-Create a project using this example:
+## Project Overview
+The "Guardians of the Night" NFT Collection is inspired by the popular anime "Kimetsu no Yaiba". This unique series immerses collectors into the captivating world of demon slayers through distinct digital artworks. Each NFT represents a special piece of this epic tale, vividly bringing to life the intense battles and unforgettable characters.
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
+## Technologies and Tools Used
+- *Smart Contract Development:* Thirdweb, Solidity
+- *Blockchain Network:* Conflux eSpace Testnet
+- *NFT Standards:* ERC-721
+- *Frontend Development:* React, Web3.js, Thirdweb
+- *Design:* Adobe Illustrator, Photoshop
+- *Deployment:* IPFS
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Setup, Compilation, and Deployment
 
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+### Prerequisites
+- Node.js and npm must be installed. 
 
-### Deploy to IPFS
+### Setup
+1. Clone this repository.
+   
+    ```
+    https://github.com/devBlue4/Nft-collection-demon.git
+    ```
+    
+3. Navigate into the project directory and install the dependencies.
 
-Deploy a copy of your application to IPFS using the following command:
+    ```
+    cd Nft-collection-demon
+    npm install
+    ```
 
-```bash
-yarn deploy
-```
+### Compilation and Deployment
+The project uses Thirdweb for smart contract development and deployment. Please follow the [Thirdweb documentation](https://docs.thirdweb.com/getting-started/overview) for compiling and deploying the smart contracts to the Conflux eSpace Testnet.
 
-## Learn More
+### Running the App
+Start the React app.
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+Visit `http://localhost:3000` in your browser to start interacting with the "Guardians of the Night" NFTs.
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+## Demo
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+See the project in action.
 
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+[web site](https://nft-collection-guardians.vercel.app/)
